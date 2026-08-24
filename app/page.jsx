@@ -1,4 +1,8 @@
+'use client';
+
 import React, { useState } from 'react';
+import { createClient } from '@supabase/supabase-js';
+// ... rest of the code import React, { useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import jsPDF from 'jspdf';
 
